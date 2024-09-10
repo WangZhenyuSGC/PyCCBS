@@ -724,7 +724,7 @@ if __name__ == "__main__":
     task = Task()
 
 
-    taskSet = 2
+    taskSet = 0
     if taskSet == None:
         import random
         # Generate random tasks
@@ -781,5 +781,5 @@ if __name__ == "__main__":
     solution = ccbs.find_solution(task)
     print(solution)
 
-    #map.render(solution.paths)
+    map.render(solution.paths)
     ccbs.write_to_log_path('test_out.xml')
